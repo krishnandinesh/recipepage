@@ -101,6 +101,8 @@ input.ckbx{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+
     width: 25%;
     height: 370px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -111,7 +113,6 @@ input.ckbx{
 .cat{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 25px;
 }
 
@@ -212,7 +213,7 @@ a:hover{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 500px){
+@media (max-width: 900px){
 
     body{
         margin: 0;
